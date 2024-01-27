@@ -1,0 +1,130 @@
+/* Add this CSS to your project to style the Navigation component */
+
+nav {
+  background-color: #D4F2FF;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(1, 0, 0);
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #555;
+  border-radius: 5px;
+}
+.detail-container {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.detail-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.detail-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.detail-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.detail-button:hover {
+  background-color: #2980b9;
+}
+ .Package img{
+  height: 150px;
+  width: 300px;
+}
+input[type="submit" i]{
+  background-color: #0B96D3;
+  color: aliceblue;
+  border: 2px solid  #0B96D3 ;
+  border-radius: 5px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup img{ width: 100%;}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {color: #06D85F;}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.All-Packages{
+  margin: 0 3%;
+  padding: 3%;
+  background-color: rgba(91, 134, 229, 0.51);
+}
