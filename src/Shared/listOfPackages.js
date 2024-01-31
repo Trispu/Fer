@@ -3,8 +3,11 @@ export const packageData = [
     img:'assets/images/hadilao.jpg',
     name:'Hadilao Bitexco',
     Host:'Jonh Smith',
-    Price:'1000$',
-    infor:'DASHDJKASHDASKDJAKSD',
+    Price:'1800$',
+    infor:'Haidilao Hot Pot Bitexco nằm trong TTTM Bitexco thuộc chi nhánh haidilao hcm',
+    
+
+
 }
 ,
 {
@@ -12,7 +15,7 @@ export const packageData = [
     name:'Jollibee',
     Host:'Trideptrai',
     Price:'500$',
-    infor:'SAHDASIJDHKASJHDKASHDKASJD',
+    infor:'360 Truong Chinh st, ward 13, Dis Tan Binh, HCM City',
 }
 ,
 {
@@ -20,7 +23,7 @@ export const packageData = [
     name:'Lotteria',
     Host:'Trispu',
     Price:'700$',
-    infor:'ASJHDKAJSDASKJHDJASGDJHGA',
+    infor:'Lotteria Parkson Lê Thánh Tôn Số 35 Bis – 45 Lê Thánh Tôn, Quận 1, TP.HCM',
 }
 ]
 

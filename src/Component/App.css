@@ -1,4 +1,10 @@
 /* Add this CSS to your project to style the Navigation component */
+/* Assuming the class name for the cake image is 'cake-img' */
+.cake-img {
+  width: 50px; /* You can adjust the width according to your preference */
+  height: 50px; /* You can adjust the height according to your preference */
+  /* Add any other styling properties as needed */
+}
 
 nav {
   background-color: #D4F2FF;
@@ -128,3 +134,16 @@ input[type="submit" i]{
   padding: 3%;
   background-color: rgba(91, 134, 229, 0.51);
 }
+.Package{
+  display: flex;
+  background-color: white;
+  margin-bottom: 1em;
+  border-radius: 30px;
+}
+.Package img {
+  margin: 2%;
+}
+nav input{
+  border-radius: 20px; 
+}
+  
