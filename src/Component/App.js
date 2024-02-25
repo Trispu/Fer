@@ -9,6 +9,7 @@ import{
   Routes,
   Route, 
 } from "react-router-dom";
+import { Navbar } from 'react-materialize';
 function App() {
   return (
     <div className='App'>
